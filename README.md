@@ -1,0 +1,34 @@
+
+<!-- README.md is generated from README.Rmd. Please edit that file -->
+
+# tidierplots
+
+<!-- badges: start -->
+
+<!-- badges: end -->
+
+tidierplots is a wrapper for
+[TidierPlots.jl](https://github.com/TidierOrg/TidierPlots.jl), a
+reimplementation of [ggplot2](https://ggplot2.tidyverse.org/index.html)
+in [julia](https://julialang.org/). It allows you to use ggplot syntax
+to generate plots using a julia backend powered by
+[Makie.jl](https://docs.makie.org/stable/)
+
+## Installation
+
+You can install the development version of tidierplots like so:
+
+``` r
+devtools::install_github("rdboyes/tidierplots")
+```
+
+## Example
+
+``` r
+library(tidierplots)
+
+ggplot(data.frame(x = c(1, 2), y = c(3, 4))) |>
+  geom_point(aes(x = "x", y = "y"))
+#> Starting Julia ...
+#> <Julia object of type TidierPlots.GGPlot>
+```
