@@ -27,8 +27,11 @@ devtools::install_github("rdboyes/tidierplots")
 ``` r
 library(tidierplots)
 
+TidierPlots_set("plot_pluto", TRUE)
+#> Starting Julia ...
+#> [1] TRUE
+
 ggplot(data.frame(x = c(1, 2), y = c(3, 4))) |>
   geom_point(aes(x = "x", y = "y"))
-#> Starting Julia ...
 #> <Julia object of type TidierPlots.GGPlot>
 ```

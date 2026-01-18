@@ -308,3 +308,325 @@ geom_polygon <- tp_template("geom_polygon")
 #' TidierPlots wrapper for ggplot2::geom_rect.
 #' @export
 geom_rect <- tp_template("geom_rect")
+
+# ---- Facetting ----
+
+#' facet_wrap
+#'
+#' TidierPlots wrapper for ggplot2::facet_wrap.
+#' @export
+facet_wrap <- tp_template("facet_wrap")
+
+#' facet_grid
+#'
+#' TidierPlots wrapper for ggplot2::facet_grid.
+#' @export
+facet_grid <- tp_template("facet_grid")
+
+# ---- Labels, limits, guides ----
+
+#' labs
+#'
+#' TidierPlots wrapper for ggplot2::labs.
+#' @export
+labs <- tp_template("labs")
+
+#' lims
+#'
+#' TidierPlots wrapper for ggplot2::lims.
+#' @export
+lims <- tp_template("lims")
+
+#' c
+#'
+#' Concatenate plot components.
+#' @export
+c <- tp_template("c")
+
+#' guides
+#'
+#' TidierPlots wrapper for ggplot2::guides.
+#' @export
+guides <- tp_template("guides")
+
+# ---- Label formatters ----
+
+#' label_bytes
+#'
+#' TidierPlots wrapper for scales::label_bytes.
+#' @export
+label_bytes <- tp_template("label_bytes")
+
+#' label_currency
+#'
+#' TidierPlots wrapper for scales::label_currency.
+#' @export
+label_currency <- tp_template("label_currency")
+
+#' label_date
+#'
+#' TidierPlots wrapper for scales::label_date.
+#' @export
+label_date <- tp_template("label_date")
+
+#' label_log
+#'
+#' TidierPlots wrapper for scales::label_log.
+#' @export
+label_log <- tp_template("label_log")
+
+#' label_number
+#'
+#' TidierPlots wrapper for scales::label_number.
+#' @export
+label_number <- tp_template("label_number")
+
+#' label_ordinal
+#'
+#' TidierPlots wrapper for scales::label_ordinal.
+#' @export
+label_ordinal <- tp_template("label_ordinal")
+
+#' label_percent
+#'
+#' TidierPlots wrapper for scales::label_percent.
+#' @export
+label_percent <- tp_template("label_percent")
+
+#' label_pvalue
+#'
+#' TidierPlots wrapper for scales::label_pvalue.
+#' @export
+label_pvalue <- tp_template("label_pvalue")
+
+#' label_scientific
+#'
+#' TidierPlots wrapper for scales::label_scientific.
+#' @export
+label_scientific <- tp_template("label_scientific")
+
+#' label_wrap
+#'
+#' TidierPlots wrapper for scales::label_wrap.
+#' @export
+label_wrap <- tp_template("label_wrap")
+
+# ---- Position scales ----
+
+#' scale_x_continuous
+#'
+#' TidierPlots wrapper for ggplot2::scale_x_continuous.
+#' @export
+scale_x_continuous <- tp_template("scale_x_continuous")
+
+#' scale_y_continuous
+#'
+#' TidierPlots wrapper for ggplot2::scale_y_continuous.
+#' @export
+scale_y_continuous <- tp_template("scale_y_continuous")
+
+#' scale_x_log10
+#'
+#' TidierPlots wrapper for ggplot2::scale_x_log10.
+#' @export
+scale_x_log10 <- tp_template("scale_x_log10")
+
+#' scale_y_log10
+#'
+#' TidierPlots wrapper for ggplot2::scale_y_log10.
+#' @export
+scale_y_log10 <- tp_template("scale_y_log10")
+
+#' scale_x_log2
+#'
+#' TidierPlots wrapper for ggplot2::scale_x_log2.
+#' @export
+scale_x_log2 <- tp_template("scale_x_log2")
+
+#' scale_y_log2
+#'
+#' TidierPlots wrapper for ggplot2::scale_y_log2.
+#' @export
+scale_y_log2 <- tp_template("scale_y_log2")
+
+#' scale_x_log
+#'
+#' TidierPlots wrapper for ggplot2::scale_x_log.
+#' @export
+scale_x_log <- tp_template("scale_x_log")
+
+#' scale_y_log
+#'
+#' TidierPlots wrapper for ggplot2::scale_y_log.
+#' @export
+scale_y_log <- tp_template("scale_y_log")
+
+#' scale_x_logit
+#'
+#' TidierPlots wrapper for ggplot2::scale_x_logit.
+#' @export
+scale_x_logit <- tp_template("scale_x_logit")
+
+#' scale_y_logit
+#'
+#' TidierPlots wrapper for ggplot2::scale_y_logit.
+#' @export
+scale_y_logit <- tp_template("scale_y_logit")
+
+#' scale_x_pseudolog10
+#'
+#' TidierPlots wrapper for ggplot2::scale_x_pseudolog10.
+#' @export
+scale_x_pseudolog10 <- tp_template("scale_x_pseudolog10")
+
+#' scale_y_pseudolog10
+#'
+#' TidierPlots wrapper for ggplot2::scale_y_pseudolog10.
+#' @export
+scale_y_pseudolog10 <- tp_template("scale_y_pseudolog10")
+
+#' scale_x_symlog10
+#'
+#' TidierPlots wrapper for ggplot2::scale_x_symlog10.
+#' @export
+scale_x_symlog10 <- tp_template("scale_x_symlog10")
+
+#' scale_y_symlog10
+#'
+#' TidierPlots wrapper for ggplot2::scale_y_symlog10.
+#' @export
+scale_y_symlog10 <- tp_template("scale_y_symlog10")
+
+#' scale_x_reverse
+#'
+#' TidierPlots wrapper for ggplot2::scale_x_reverse.
+#' @export
+scale_x_reverse <- tp_template("scale_x_reverse")
+
+#' scale_y_reverse
+#'
+#' TidierPlots wrapper for ggplot2::scale_y_reverse.
+#' @export
+scale_y_reverse <- tp_template("scale_y_reverse")
+
+#' scale_x_sqrt
+#'
+#' TidierPlots wrapper for ggplot2::scale_x_sqrt.
+#' @export
+scale_x_sqrt <- tp_template("scale_x_sqrt")
+
+#' scale_y_sqrt
+#'
+#' TidierPlots wrapper for ggplot2::scale_y_sqrt.
+#' @export
+scale_y_sqrt <- tp_template("scale_y_sqrt")
+
+# ---- Colour scales ----
+
+#' scale_colour_continuous
+#'
+#' TidierPlots wrapper for ggplot2::scale_colour_continuous.
+#' @export
+scale_colour_continuous <- tp_template("scale_colour_continuous")
+
+#' scale_colour_discrete
+#'
+#' TidierPlots wrapper for ggplot2::scale_colour_discrete.
+#' @export
+scale_colour_discrete <- tp_template("scale_colour_discrete")
+
+#' scale_colour_manual
+#'
+#' TidierPlots wrapper for ggplot2::scale_colour_manual.
+#' @export
+scale_colour_manual <- tp_template("scale_colour_manual")
+
+#' scale_colour_binned
+#'
+#' TidierPlots wrapper for ggplot2::scale_colour_binned.
+#' @export
+scale_colour_binned <- tp_template("scale_colour_binned")
+
+# ---- Color scales (US spelling) ----
+
+#' scale_color_continuous
+#'
+#' TidierPlots wrapper for ggplot2::scale_color_continuous.
+#' @export
+scale_color_continuous <- tp_template("scale_color_continuous")
+
+#' scale_color_discrete
+#'
+#' TidierPlots wrapper for ggplot2::scale_color_discrete.
+#' @export
+scale_color_discrete <- tp_template("scale_color_discrete")
+
+#' scale_color_manual
+#'
+#' TidierPlots wrapper for ggplot2::scale_color_manual.
+#' @export
+scale_color_manual <- tp_template("scale_color_manual")
+
+#' scale_color_binned
+#'
+#' TidierPlots wrapper for ggplot2::scale_color_binned.
+#' @export
+scale_color_binned <- tp_template("scale_color_binned")
+
+# ---- Fill scales ----
+
+#' scale_fill_continuous
+#'
+#' TidierPlots wrapper for ggplot2::scale_fill_continuous.
+#' @export
+scale_fill_continuous <- tp_template("scale_fill_continuous")
+
+#' scale_fill_discrete
+#'
+#' TidierPlots wrapper for ggplot2::scale_fill_discrete.
+#' @export
+scale_fill_discrete <- tp_template("scale_fill_discrete")
+
+#' scale_fill_manual
+#'
+#' TidierPlots wrapper for ggplot2::scale_fill_manual.
+#' @export
+scale_fill_manual <- tp_template("scale_fill_manual")
+
+#' scale_fill_binned
+#'
+#' TidierPlots wrapper for ggplot2::scale_fill_binned.
+#' @export
+scale_fill_binned <- tp_template("scale_fill_binned")
+
+# ---- Other aesthetics ----
+
+#' scale_alpha
+#'
+#' TidierPlots wrapper for ggplot2::scale_alpha.
+#' @export
+scale_alpha <- tp_template("scale_alpha")
+
+#' scale_alpha_continuous
+#'
+#' TidierPlots wrapper for ggplot2::scale_alpha_continuous.
+#' @export
+scale_alpha_continuous <- tp_template("scale_alpha_continuous")
+
+#' scale_size
+#'
+#' TidierPlots wrapper for ggplot2::scale_size.
+#' @export
+scale_size <- tp_template("scale_size")
+
+#' scale_shape
+#'
+#' TidierPlots wrapper for ggplot2::scale_shape.
+#' @export
+scale_shape <- tp_template("scale_shape")
+
+#' scale_linewidth
+#'
+#' TidierPlots wrapper for ggplot2::scale_linewidth.
+#' @export
+scale_linewidth <- tp_template("scale_linewidth")
