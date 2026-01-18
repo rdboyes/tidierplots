@@ -337,12 +337,6 @@ labs <- tp_template("labs")
 #' @export
 lims <- tp_template("lims")
 
-#' c
-#'
-#' Concatenate plot components.
-#' @export
-c <- tp_template("c")
-
 #' guides
 #'
 #' TidierPlots wrapper for ggplot2::guides.

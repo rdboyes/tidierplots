@@ -32,10 +32,6 @@ library(tidierplots)
 #> 
 #>     c
 
-TidierPlots_set("plot_pluto", TRUE)
-#> Starting Julia ...
-#> [1] TRUE
-
 xs = 10 ^ (seq(from = -1, to=1, length.out=100))
 
 df = data.frame(x = xs,
@@ -50,5 +46,8 @@ ggplot(df) |>
     lims(y = c(.1, 100)) |>
     scale_color_continuous(palette = "Hiroshige", name = "") |>
     theme_minimal()
+#> Starting Julia ...
 #> <Julia object of type TidierPlots.GGPlot>
 ```
+
+![](man/figures/readme-1.png)

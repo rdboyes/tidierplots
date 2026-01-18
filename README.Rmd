@@ -33,8 +33,6 @@ devtools::install_github("rdboyes/tidierplots")
 ```{r example}
 library(tidierplots)
 
-TidierPlots_set("plot_pluto", TRUE)
-
 xs = 10 ^ (seq(from = -1, to=1, length.out=100))
 
 df = data.frame(x = xs,
@@ -51,3 +49,4 @@ ggplot(df) |>
     theme_minimal()
 ```
 
+![](man/figures/readme-1.png)
