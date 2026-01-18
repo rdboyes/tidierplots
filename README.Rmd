@@ -28,6 +28,10 @@ You can install the development version of tidierplots like so:
 devtools::install_github("rdboyes/tidierplots")
 ```
 
+## Syntax Differences
+
+Use pipes (`|>`) instead of `+` to chain `ggplot` components, and use strings in your `aes` calls to refer to variable names. 
+
 ## Example
 
 ```{r example}

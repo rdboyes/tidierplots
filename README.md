@@ -22,15 +22,15 @@ You can install the development version of tidierplots like so:
 devtools::install_github("rdboyes/tidierplots")
 ```
 
+## Syntax Differences
+
+Use pipes (`|>`) instead of `+` to chain `ggplot` components, and use
+strings in your `aes` calls to refer to variable names.
+
 ## Example
 
 ``` r
 library(tidierplots)
-#> 
-#> Attaching package: 'tidierplots'
-#> The following object is masked from 'package:base':
-#> 
-#>     c
 
 xs = 10 ^ (seq(from = -1, to=1, length.out=100))
 
