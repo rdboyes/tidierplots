@@ -26,12 +26,29 @@ devtools::install_github("rdboyes/tidierplots")
 
 ``` r
 library(tidierplots)
+#> 
+#> Attaching package: 'tidierplots'
+#> The following object is masked from 'package:base':
+#> 
+#>     c
 
 TidierPlots_set("plot_pluto", TRUE)
 #> Starting Julia ...
 #> [1] TRUE
 
-ggplot(data.frame(x = c(1, 2), y = c(3, 4))) |>
-  geom_point(aes(x = "x", y = "y"))
+xs = 10 ^ (seq(from = -1, to=1, length.out=100))
+
+df = data.frame(x = xs,
+    y = xs ^ 2 + abs(2 * runif(length(xs))),
+    size = rev((xs ^ 2/3) + 6))
+
+ggplot(df) |>
+    geom_point(aes(x = "x", y = "y", size = "size", color = "x"), alpha = 0.8) |>
+    scale_x_log10() |>
+    scale_y_log10() |>
+    labs(x = "x", y = "y") |>
+    lims(y = c(.1, 100)) |>
+    scale_color_continuous(palette = "Hiroshige", name = "") |>
+    theme_minimal()
 #> <Julia object of type TidierPlots.GGPlot>
 ```
